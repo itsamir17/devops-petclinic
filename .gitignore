@@ -1,0 +1,31 @@
+# --- Systèmes et éditeurs ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Terraform (étape 4) ---
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl.bak
+
+# --- Kubernetes / secrets : ne jamais versionner ---
+kubeconfig
+*.kubeconfig
+*.pem
+*.key
+.env
+!.env.example
+secrets/
+# Les Secrets Kubernetes en clair ne vont pas dans Git
+*-secret.local.yaml
+
+# --- Fichiers temporaires ---
+tmp/
+*.log
