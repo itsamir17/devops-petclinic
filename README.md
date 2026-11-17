@@ -22,18 +22,18 @@ Les instructions de lancement d'origine sont dans `backend/readme.md` et `fronte
 
 ## Feuille de route
 
-| Étape | Sujet | État |
+| Étape | Sujet |
 |---|---|---|
-| 1 | Dépôt, branches, versions | en cours |
-| 2 | Docker et docker-compose | à faire |
-| 3 | Kubernetes sur kind (Kustomize dev / prod) | à faire |
-| 4 | Infrastructure as Code (Terraform) | à faire |
-| 5 | CI (GitHub Actions, SonarCloud, GHCR) | à faire |
-| 6 | GitOps (Argo CD) | à faire |
-| 7 | Monitoring (Prometheus, Grafana) | à faire |
-| 8 | Logs et alertes (Loki, Alertmanager) | à faire |
-| 9 | Haute disponibilité | à faire |
-| 10 | Tests et validation | à faire |
+| 1 | Dépôt, branches, versions |
+| 2 | Docker et docker-compose |
+| 3 | Kubernetes sur kind (Kustomize dev / prod) |
+| 4 | Infrastructure as Code (Terraform) |
+| 5 | CI (GitHub Actions, SonarCloud, GHCR) |
+| 6 | GitOps (Argo CD) |
+| 7 | Monitoring (Prometheus, Grafana) |
+| 8 | Logs et alertes (Loki, Alertmanager) |
+| 9 | Haute disponibilité |
+| 10 | Tests et validation |
 
 Le détail du projet (sujet, but, livrables, outils) est dans
 `docs/presentation-projet-devops.pdf`.
